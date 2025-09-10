@@ -12,11 +12,11 @@ The logic is implemented in `orbis.py`.
 ### Architecture (at a glance)
 ```mermaid
 flowchart LR
-  A[FAF5 CSV/Excel/PDF (raw)] --> B[Ingest]
-  B --> C[Clean & Normalize]
-  C --> D[Validate & Profile]
-  D --> E[Outputs: CSV / DuckDB]
-  E --> F[(Analytics / SQL / ML)]
+  A[FAF5 raw files] --> B[Ingest]
+  B --> C[Clean and Normalize]
+  C --> D[Validate and Profile]
+  D --> E[Outputs: CSV + DuckDB]
+  E --> F[(Analytics, SQL, ML)]
 ```
 
 ### Requirements
