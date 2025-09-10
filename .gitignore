@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+logs/
+data/
+orbis.duckdb
+*.parquet
+FAF5/FAF5_MERGED.csv
+FAF5/FAF5_MERGED_CLEANED.csv
+FAF5/FAF5_VALIDATION_COLUMNS.csv
+FAF5/FAF5_VALIDATION_ISSUES.csv
+
+.venv/
+orbis.duckdb*
+FAF5/*.csv
